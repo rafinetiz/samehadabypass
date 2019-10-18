@@ -1,0 +1,25 @@
+{
+    "name": "rafinetiz/samehadabypass",
+    "description": "SAMEHADAKU BYPASSER",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rafinetiz",
+            "email": "iamrafinetiz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rafinetiz\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "campo/random-user-agent": "^1.3",
+        "paquettg/php-html-parser": "^2.0",
+        "pear/console_table": "^1.3",
+        "league/booboo": "^2.0"
+    }
+}
